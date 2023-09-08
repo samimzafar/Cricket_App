@@ -1,9 +1,9 @@
-import './App.css';
-import MatchInfo from './matchInfo/MatchInfo';
+import InfoSection from "./pages/infoSection/InfoSection";
+
 function App() {
   return (
     <div className="App">
-      <MatchInfo />
+      <InfoSection />
     </div>
   );
 }
