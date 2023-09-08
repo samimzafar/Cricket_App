@@ -1,0 +1,33 @@
+$color_1: rgb(255, 255, 255);
+
+.row-1 {
+	background: rgb(3, 169, 244);
+	padding-left: 1.5em;
+	ul {
+		display: flex;
+	}
+}
+li.row-items {
+	list-style-type: none;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+}
+.row-text {
+	color: $color_1;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+.row-2 li {
+  display: flex;
+  background-color:$color_1;
+  color: rgb(0, 0, 0);
+  padding: 2em;
+  margin: 1em 1em;
+  border-radius: 20px;
+}
+.row-2 h5 , h6 {
+  padding: .5em .5em;
+  margin: 0.5em;
+  font-size: .5em;
+}
+
