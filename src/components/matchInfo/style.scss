@@ -1,33 +1,78 @@
 $color_1: rgb(255, 255, 255);
 
 .row-1 {
-	background: rgb(3, 169, 244);
-	padding-left: 1.5em;
-	ul {
-		display: flex;
-	}
+  background: rgb(3, 169, 244);
+  padding-left: 1.5em;
+  ul {
+    display: flex;
+  }
 }
 li.row-items {
-	list-style-type: none;
-	padding-left: 0.7em;
-	padding-right: 0.7em;
+  list-style-type: none;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
 }
 .row-text {
-	color: $color_1;
-	font-size: 0.8em;
-	cursor: pointer;
+  color: $color_1;
+  font-size: 0.8em;
+  cursor: pointer;
 }
-.row-2 li {
+.score-card{
   display: flex;
-  background-color:$color_1;
-  color: rgb(0, 0, 0);
-  padding: 2em;
-  margin: 1em 1em;
-  border-radius: 20px;
+  flex-wrap: wrap;
+  :hover{
+    cursor: pointer;
+  }
+  .row-item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  .teams{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .team2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .team-win{
+    display: flex;
+    font-size: .7em;
+    margin: 2px;
+  }
+  .border{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: .8em;
+    margin-right: 4.5em;
+    border-top : 1px solid gray;
+    margin-top: .6em;
+    :hover{
+      text-decoration: underline;
+    }
+  }
 }
-.row-2 h5 , h6 {
-  padding: .5em .5em;
-  margin: 0.5em;
-  font-size: .5em;
+ .score-card li {
+  display: flex;
+  flex-direction: column;
+  background-color: $color_1;
+ color: rgb(0, 0, 0);
+ border-radius: 20px;
+ padding: 6px 10px;
+ width: 14.5em;
+ }
+.score-card h5,
+ h6 {
+   padding: 0.5em 0.5em;
+  margin: 0px;
+   font-size: 0.5em;
+}
+.score-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
 }
 
