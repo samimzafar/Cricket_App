@@ -1,10 +1,11 @@
 $color_1: rgb(255, 255, 255);
 
 .row-1 {
-  background: rgb(3, 169, 244);
+  background: #0569ff;
   padding-left: 1.5em;
   ul {
     display: flex;
+    margin: 0;
   }
 }
 li.row-items {

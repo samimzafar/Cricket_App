@@ -1,0 +1,28 @@
+.NavBar {
+  display: flex;
+  background-color: #058fff;
+  align-items: center;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  .logo {
+    padding-left: 4em;
+  } 
+   
+}
+.nav-item {
+  list-style-type: none;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  .nav-list-text {
+    font-size: 15px;
+  }
+}
+.logo img {
+  width: 8em;
+}
+.nav-list img {
+  width: 24px;
+}
+  

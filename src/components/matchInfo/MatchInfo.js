@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { matchesInfo, ScoreCard, TeamScore } from "../../Data/data";
+import { matchesInfo,ScoreCard} from "../../Data/data";
 import {
   BsFillArrowLeftCircleFill,
   BsFillArrowRightCircleFill,
