@@ -107,55 +107,55 @@ export const dropDown = [
 export const keySeries = [
   {
     id: 1,
-    li_1: "Live",
-    li_2: "1st ODI",
-    li_3: "Asia Cup",
-    li_4: "Pak vs Ind",
-    li_5: "World Cup",
-    li_6: "Ind vs Aus",
-    li_7: "CPL 2023",
-    li_8: "Women's Championship",
+    title_1: "Live",
+    title_2: "1st ODI",
+    title_3: "Asia Cup",
+    title_4: "Pak vs Ind",
+    title_5: "World Cup",
+    title_6: "Ind vs Aus",
+    title_7: "CPL 2023",
+    title_8: "Women's Championship",
   },
 ];
 export const quickLinks = [
   {
     id: 1,
-    li_1: "T20 Timeout",
-    li_2: "T20 Time Out",
-    li_3: "ICC Ranking",
+    title_1: "T20 Timeout",
+    title_2: "T20 Time Out",
+    title_3: "ICC Ranking",
   },
 ];
 export const Apps = [
   {
     id: 1,
-    li_1: "Android App",
-    li_2: "IOS App",
+    title_1: "Android App",
+    title_2: "IOS App",
   },
 ];
 export const follow = [
   {
     id: 1,
-    li_1: "Instagram",
-    li_2: "Twitter",
-    li_3: "Facebook",
+    title_1: "Instagram",
+    title_2: "Twitter",
+    title_3: "Facebook",
   },
 ];
 export const sites = [
   {
     id: 1,
-    li_1: "The Cricket Monthly",
-    li_2: "ESPN",
+    title_1: "The Cricket Monthly",
+    title_2: "ESPN",
   },
 ];
 export const News = [
   {
     id: 1,
-    li_1: "Live: Pak vs Ind ",
-    li_2: "1st ODI: Ravindra in New Zealand...",
-    li_3: "Asia Cup: Injured Rauf misses action",
-    li_4: "Pak vs Ind",
-    li_5: "World Cup:Healy sign new deal...",
-    li_6: "Ind vs Aus: Match delayed by rain",
+    title_1: "Live: Pak vs Ind ",
+    title_2: "1st ODI: Ravindra in New Zealand...",
+    title_3: "Asia Cup: Injured Rauf misses action",
+    title_4: "Pak vs Ind",
+    title_5: "World Cup:Healy sign new deal...",
+    title_6: "Ind vs Aus: Match delayed by rain",
   },
 ];
 export const carousel = [

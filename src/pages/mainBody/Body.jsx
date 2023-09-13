@@ -10,7 +10,6 @@ const Body = () => {
     <div className='body'>
         <LeftSide/>
       <BodyCenter/>
-      <div></div>
       <RightSide/>
     </div>
   )

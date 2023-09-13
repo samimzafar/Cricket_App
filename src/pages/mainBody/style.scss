@@ -1,5 +1,5 @@
 .body{
-    display: grid;
-    grid-template-columns: 18em 45em 1em 18em;
+    display: flex;
+    justify-content: space-evenly;
     background-color: rgb(246,247,248);
 }

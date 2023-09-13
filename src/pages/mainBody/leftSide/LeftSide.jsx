@@ -11,14 +11,14 @@ const LeftSide = () => {
             <div className="key-items">
             <span className='heading'>Key Series</span>
             
-              <h6><span className='icon'><BsChevronRight/></span>{keySeries.li_1 }</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{keySeries.li_2}</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{keySeries.li_3}</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{keySeries.li_4}</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{keySeries.li_5}</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{keySeries.li_6}</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{keySeries.li_7}</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{keySeries.li_8}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{keySeries.title_1 }</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{keySeries.title_2}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{keySeries.title_3}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{keySeries.title_4}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{keySeries.title_5}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{keySeries.title_6}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{keySeries.title_7}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{keySeries.title_8}</h6>
             </div>
 
           </li>
@@ -30,9 +30,9 @@ const LeftSide = () => {
             <div className="key-items">
             <span className='heading'>Quick Links</span>
             
-              <h6><span className='icon'><BsChevronRight/></span>{quickLinks.li_1 }</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{quickLinks.li_2}</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{quickLinks.li_3}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{quickLinks.title_1 }</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{quickLinks.title_2}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{quickLinks.title_3}</h6>
             </div>
 
           </li>
@@ -44,8 +44,8 @@ const LeftSide = () => {
             <div className="key-items">
             <span className='heading'>ESPNcricinfi Apps</span>
             
-              <h6><span className='icon'><BsChevronRight/></span>{Apps.li_1 }</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{Apps.li_2}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{Apps.title_1 }</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{Apps.title_2}</h6>
             </div>
 
           </li>
@@ -57,9 +57,9 @@ const LeftSide = () => {
             <div className="key-items">
             <span className='heading'>Follow ESPNcricinfo</span>
             
-              <h6><span className='icon'><BsChevronRight/></span>{follow.li_1 }</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{follow.li_2}</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{follow.li_3}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{follow.title_1 }</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{follow.title_2}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{follow.title_3}</h6>
             </div>
 
           </li>
@@ -71,8 +71,8 @@ const LeftSide = () => {
             <div className="key-items">
             <span className='heading'>ESPN Sites</span>
             
-              <h6><span className='icon'><BsChevronRight/></span>{sites.li_1 }</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{sites.li_2}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{sites.title_1 }</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{sites.title_2}</h6>
             </div>
 
           </li>

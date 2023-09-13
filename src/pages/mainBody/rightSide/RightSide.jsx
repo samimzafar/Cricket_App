@@ -11,12 +11,12 @@ const RightSide = () => {
             <div className="key-items">
             <span className='heading'>News Headlines</span>
             
-              <h6><span className='icon'><BsChevronRight/></span>{News.li_1 }</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{News.li_2}</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{News.li_3}</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{News.li_4}</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{News.li_5}</h6>
-              <h6><span className='icon'><BsChevronRight/></span>{News.li_6}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{News.title_1 }</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{News.title_2}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{News.title_3}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{News.title_4}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{News.title_5}</h6>
+              <h6><span className='icon'><BsChevronRight/></span>{News.title_6}</h6>
             </div>
 
           </li>
