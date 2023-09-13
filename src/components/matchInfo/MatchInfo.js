@@ -33,6 +33,7 @@ const MatchInfo = () => {
               <span>{ScoreCard.score}</span>
             </div>
             <div className="team2">
+            
               <span>{ScoreCard.team2}</span>
               <span>{ScoreCard.score2}</span>
             </div>

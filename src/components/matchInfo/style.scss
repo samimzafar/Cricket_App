@@ -42,13 +42,13 @@ li.row-items {
     display: flex;
     font-size: .7em;
     margin: 2px;
+    border-bottom: 1px solid rgb(237, 238, 240);
   }
   .border{
     display: flex;
     justify-content: space-evenly;
     font-size: .8em;
     margin-right: 4.5em;
-    border-top : 1px solid gray;
     margin-top: .6em;
     :hover{
       text-decoration: underline;
@@ -60,9 +60,10 @@ li.row-items {
   flex-direction: column;
   background-color: $color_1;
  color: rgb(0, 0, 0);
- border-radius: 20px;
+ border-radius: 15px;
+ border: 1px solid rgb(237, 238, 240);
  padding: 6px 10px;
- width: 14.5em;
+ width: 14em;
  }
 .score-card h5,
  h6 {
