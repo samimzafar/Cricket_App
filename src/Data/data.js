@@ -98,13 +98,13 @@ export const NavBar = [
   { id: 6, title: "Videos" },
   { id: 7, title: "County Div2" },
   { id: 8, title: "Sats" },
-  { id: 10, title2: "Edition PK" },
+  { id: 10,title: "Edition PK" },
   { id: 11, Img: Imgs.moon },
   { id: 12, Img: Imgs.bell },
   { id: 13, Img: Imgs.grid },
   { id: 14, Img: Imgs.search },
 ];
-export const dropDown = [
+export const subMenu = [
   { id: 1, title: "Matches(23)" },
   { id: 2, title: "ENG vs NZ(1)" },
   { id: 3, title: "Asia Cup(1)" },

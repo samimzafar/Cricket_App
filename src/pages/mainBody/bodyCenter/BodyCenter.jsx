@@ -1,8 +1,9 @@
-import React from "react";
+import React , { useRef }from "react";
 import "./style.scss";
 import { BodyCarousel, News, vedioClip, carousel } from "../../../Data/data";
 import { Imgs } from "../../../utiles/img";
-import { BsChevronRight } from "react-icons/bs";
+import { BsChevronRight ,BsFillArrowLeftCircleFill,
+  BsFillArrowRightCircleFill, } from "react-icons/bs";
 const BodyCenter = () => {
   return (
     <div className="carousel-card">

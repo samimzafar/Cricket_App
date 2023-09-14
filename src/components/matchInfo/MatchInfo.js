@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { matchesInfo,ScoreCard} from "../../Data/data";
 import {
   BsFillArrowLeftCircleFill,
@@ -9,8 +9,9 @@ import "./style.scss";
 import { Imgs } from "../../utiles/img";
 
 const MatchInfo = () => {
+
   return (
-    <div className="row-1">
+    <div className="row-1" >
       <ul>
         {matchesInfo.map((matchesInfo) => (
           <li className="row-items" key={matchesInfo.id}>

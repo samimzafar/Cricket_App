@@ -2,8 +2,7 @@
   display: flex;
   background-color: #058fff;
   align-items: center;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  height: 3em;
   .logo {
     padding-left: 4em;
   } 
@@ -17,6 +16,7 @@
   cursor: pointer;
   .nav-list-text {
     font-size: 15px;
+    height: 1em;
   }
 }
 .logo img {
