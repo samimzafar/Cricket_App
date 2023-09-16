@@ -1,7 +1,7 @@
-$color_1: rgb(255, 255, 255);
+
 
 .row-1 {
-  background: #0569ff;
+  background: var(--background);
   padding-left: 1.5em;
   ul {
     display: flex;
@@ -14,7 +14,7 @@ li.row-items {
   padding-right: 0.7em;
 }
 .row-text {
-  color: $color_1;
+  color:rgb(255, 255, 255);
   font-size: 0.8em;
   cursor: pointer;
 }
@@ -42,7 +42,7 @@ li.row-items {
     display: flex;
     font-size: .7em;
     margin: 2px;
-    border-bottom: 1px solid rgb(237, 238, 240);
+    border-bottom: 1px solid var(--bg-white-bor);
   }
   .border{
     display: flex;
@@ -57,11 +57,11 @@ li.row-items {
 }
  .score-card li {
   display: flex;
-  flex-direction: column;
-  background-color: $color_1;
- color: rgb(0, 0, 0);
+flex-direction: column;
+ background-color:var(--bg-white);
+ color: var(--text-color);
  border-radius: 15px;
- border: 1px solid rgb(237, 238, 240);
+ border: 1px solid var(--bg-white-bor);
  padding: 6px 10px;
  width: 14em;
  }

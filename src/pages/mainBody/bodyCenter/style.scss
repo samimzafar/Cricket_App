@@ -1,6 +1,7 @@
 .carousel-card {
+  
   .main-card {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--bg-white-cards);
     margin: 1em;
     width: 42em;
     border-radius: 12px;
@@ -11,12 +12,11 @@
     .card-items {
       padding: 1em 0.5em;
       height: auto;
-      background-color: rgb(255, 255, 255);
       border-radius: 15px;
-      border: 1px solid rgb(237, 238, 240);
+      border: 1px solid var( --bg-white-bor);
       .card {
         display: flex;
-        background-color: rgb(255, 255, 255);
+        background-color: var(--bg-white-cards);
         flex-direction: row;
         width: 40em;
         overflow: hidden;
@@ -28,6 +28,9 @@
           width: 12em;
           height: 11em;
           padding: 0.5em 0.5em;
+          span{
+            color:var(--text-color);
+          }
         }
         .imgs {
           display: flex;
@@ -58,24 +61,27 @@
         padding: 5px;
         padding-top: 0;
         margin-bottom: 10px;
-        background-color: rgb(255, 255, 255);
-        border-bottom: 1px solid rgb(237, 238, 240);
+        background-color:var(--bg-white-cards);
+        border-bottom: 1px solid var( --bg-white-bor);
         .L_1 {
           font-size: 0.9em;
           font-weight: 600;
+          color:var(--text-color);
         }
         .L_2 {
           font-size: 0.7em;
           font-weight: 400;
+          color:var(--text-color);
         }
       }
 
       .R2 {
         padding-bottom: 1em;
-        background-color: rgb(255, 255, 255);
-        border-bottom: 1px solid rgb(237, 238, 240);
+        background-color:var(--bg-white-cards);
+        border-bottom: 1px solid var( --bg-white-bor);
         .row2 {
           padding: 0.6em 1em;
+          color:var(--text-color) ;
           .img {
             width: 25px;
             display: flex;
@@ -94,16 +100,19 @@
             padding-bottom: 10px;
             font-weight: 600;
             padding-top: 0.5em;
+            color:var(--text-color);
           }
           .i1 {
             display: flex;
             font-weight: 600;
+            color:var(--text-color);
           }
         }
         .i2 {
           padding-left: 1em;
           font-size: 13px;
           font-weight: 400;
+          color:var(--text-color);
         }
       }
       .cric {
@@ -111,14 +120,14 @@
         flex-direction: column;
         justify-content: center;
         padding: 1em 1em;
-        border-bottom: 1px solid rgb(237, 238, 240);
-        background-color: rgb(255, 255, 255);
+        border-bottom: 1px solid var( --bg-white-bor);
+        background-color: var(--bg-white-cards);
         span {
           margin-top: 0.5em;
-          background-color: rgb(255, 255, 255);
+          background-color:var(--bg-white-cards);
           font-weight: 800;
           font-size: 1.2em;
-          color: rgba(0, 0, 0, 0.791);
+          color:var(--text-color) ;
         }
         .imgs {
           display: flex;
@@ -141,8 +150,8 @@
         }
       }
       .vedio-card {
-        background-color: rgb(255, 255, 255);
-        border-bottom: 1px solid rgb(237, 238, 240);
+        background-color:var(--bg-white-cards);
+        border-bottom: 1px solid var( --bg-white-bor);
         .key-items {
           display: flex;
           justify-content: space-between;
@@ -175,7 +184,7 @@
         span {
           font-weight: 800;
           font-size: 1.2em;
-          color: rgba(0, 0, 0, 0.791);
+          color:var(--text-color) ;
           margin-right: 2em;
           margin-bottom: 5px;
         }
@@ -183,11 +192,12 @@
           margin: 0;
           font-size: 14px;
           font-weight: 300;
+          color:var(--text-color);
         }
       }
       .R5 {
-        background-color: rgb(255, 255, 255);
-        border-bottom: 1px solid rgb(237, 238, 240);
+        background-color: var(--bg-white-cards);
+        border-bottom: 1px solid var( --bg-white-bor);
         padding: 1em 1em;
         li {
           display: grid;
@@ -198,6 +208,7 @@
           align-items: flex-start;
           line-height: 1;
           font-size: 11px;
+          color:var(--text-color);
           font-weight: 400;
           .icon {
             padding-right: 10px;

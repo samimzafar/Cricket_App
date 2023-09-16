@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavBar, dropDown } from "../../Data/data";
 import "./style.scss";
 import { Imgs } from "../../utiles/img";
@@ -16,6 +16,18 @@ const Header = () => {
   }
  })
 
+ const [theme, setTheme] = useState("light-theme");
+const changeTheme =()=> {
+  if(theme === "dark-theme"){
+    setTheme('light-theme')
+  }else{
+    setTheme('dark-theme')
+  }
+
+}
+useEffect(()=>{ 
+  document.body.className = theme;
+},[theme])
   return (
     <div className={fix ? 'sticky' : 'NavBar'}>
       <div className="logo">
@@ -38,7 +50,16 @@ const Header = () => {
             </li>
           );
         } 
-        
+        if(NavBar.Img === Imgs.moon){
+          return(
+            <li className="nav-item" key={NavBar.id} onClick={()=>changeTheme()}>
+            <div className="nav-list">
+              <span className="nav-list-text">{NavBar.title}</span>
+              <img src={NavBar.Img} alt="" />
+            </div>
+          </li>
+          )
+        }
         return (
           <li className="nav-item" key={NavBar.id}>
             <div className="nav-list">

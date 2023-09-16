@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.light-theme{
+  --background: #058fff;
+  --bg-white:rgb(255, 255, 255);
+  --bg-white-bor:rgb(237, 238, 240);
+  --text-color:rgb(0, 0, 0);
+  --body-bg:rgb(246,247,248);
+  --bg-white-cards:rgb(255, 255, 255);
+}
+.dark-theme{
+  --background: rgb(29,30,31);
+  --bg-white:rgba(41, 42,46 ,1);
+  --bg-white-bor:rgb(35, 36,40,1);
+  --text-color:rgb(255, 255, 255);
+  --body-bg:rgb(0, 0, 0);
+  --bg-white-cards:rgba(18,18,20,1);
+}

@@ -1,19 +1,19 @@
 .footer{
     display: flex;
     justify-content: center;
-    background-color: rgb(246,247,248);
+    background-color: var( --body-bg);
     .footer-side{
         display: flex;
-        background-color: rgb(255, 255, 255);
+        background-color:var(--bg-white-cards);
         padding-left: 1.25rem;
         padding-right: 1.25rem;
         width: 75em;
-        height: 22em;
+        height: 24em;
         margin-top: 2em;
         margin-bottom: 2em;
         justify-content: center;
         border-radius: 15px;
-        border: 1px solid rgb(237, 238, 240);
+        border: 1px solid var(--bg-white-bor);
         .key-series-card .key-items{
             margin: 1em;
             width: 13em;
@@ -22,16 +22,17 @@
             .heading{
                 font-weight: 800;
                 font-size: 1em;
-                color: rgb(23, 22, 22);
+                color:var(--text-color);
             }
             h6{
                 font-size: 15px;
+                color:var(--text-color);
                 font-weight: 300;
             }
             h6:hover{
                 text-decoration: underline;
                 cursor: pointer;
-                background-color:rgb(255, 255, 255) ;
+                background-color:var(--bg-white-cards);
             }
             }
 

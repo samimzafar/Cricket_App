@@ -10,11 +10,11 @@
     list-style-type: none;
   }
   .key-items {
-    background-color: rgb(255, 255, 255);
+    background-color: var(--bg-white-cards);
     margin: 1em;
     width: 16em;
     border-radius: 12px;
-    border: 1px solid rgb(237, 238, 240);
+    border: 1px solid var(--bg-white-bor);
     margin-bottom: 0px;
     .heading {
       display: flex;
@@ -22,8 +22,9 @@
       padding: 10px;
       margin-bottom: 10px;
       font-weight: 500;
+      color: var(--text-color);
       font-size: 0.9em;
-      border-bottom: 1px solid rgb(237, 238, 240);
+      border-bottom: 1px solid var(--bg-white-bor);
     }
     h6 {
       font-size: 13px;
@@ -31,6 +32,7 @@
       display: flex;
       align-items: center;
       padding: 9px 10px;
+      color: var(--text-color);
       .icon {
         padding-right: 10px;
         font-size: 12px;
