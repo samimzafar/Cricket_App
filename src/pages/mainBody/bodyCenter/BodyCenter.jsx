@@ -68,37 +68,37 @@ const BodyCenter = () => {
                         <span className="icon">
                           <BsChevronRight />
                         </span>
-                        {News.li_1}
+                        {News.title_1}
                       </h6>
                       <h6>
                         <span className="icon">
                           <BsChevronRight />
                         </span>
-                        {News.li_2}
+                        {News.title_2}
                       </h6>
                       <h6>
                         <span className="icon">
                           <BsChevronRight />
                         </span>
-                        {News.li_3}
+                        {News.title_3}
                       </h6>
                       <h6>
                         <span className="icon">
                           <BsChevronRight />
                         </span>
-                        {News.li_4}
+                        {News.title_4}
                       </h6>
                       <h6>
                         <span className="icon">
                           <BsChevronRight />
                         </span>
-                        {News.li_5}
+                        {News.title_5}
                       </h6>
                       <h6>
                         <span className="icon">
                           <BsChevronRight />
                         </span>
-                        {News.li_6}
+                        {News.title_6}
                       </h6>
                     </li>
                   ))}
@@ -125,8 +125,8 @@ const BodyCenter = () => {
           <li key={BodyCarousel.id}>
             <div className="card-items">
               <div className="row1">
-                <span className="team1">{BodyCarousel.teams}</span>
-                <span className="series">{BodyCarousel.series}</span>
+                <span className="L_1">{BodyCarousel.teams}</span>
+                <span className="L_2">{BodyCarousel.series}</span>
               </div>
               <div className="R2">
                 <div className="row2">

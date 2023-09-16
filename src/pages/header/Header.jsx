@@ -3,10 +3,21 @@ import { NavBar, dropDown } from "../../Data/data";
 import "./style.scss";
 import { Imgs } from "../../utiles/img";
 import DropDown from "../../components/dropDown/DropDown";
+
 const Header = () => {
   const [dropDown, setDropDown] = useState(false);
+ const [fix, setSticky] = useState(true)
+
+ window.addEventListener("scroll" , ()=>{
+  if(window.scrollY >= 187){
+    setSticky(true);
+  }else{
+    setSticky(false);
+  }
+ })
+
   return (
-    <div className="NavBar sticky">
+    <div className={fix ? 'sticky' : 'NavBar'}>
       <div className="logo">
         <img src={Imgs.logo3} alt="Profile img" />
       </div>
@@ -39,6 +50,8 @@ const Header = () => {
       })}
     </div>
   );
+
 };
+
 
 export default Header;

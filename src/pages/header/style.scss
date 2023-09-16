@@ -8,6 +8,19 @@
   } 
    
 }
+.sticky{
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color: #058fff;
+  align-items: center;
+  height: 3em;
+  width: 100%;
+  z-index:9999;
+  .logo {
+    padding-left: 4em;
+  } 
+}
 .nav-item {
   list-style-type: none;
   padding-left: 0.7em;
