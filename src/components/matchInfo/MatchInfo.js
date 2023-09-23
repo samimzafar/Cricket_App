@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { matchesInfo, ScoreCard, TeamScore } from "../../Data/data";
+import React from "react";
+import { matchesInfo,ScoreCard} from "../../Data/data";
 import {
   BsFillArrowLeftCircleFill,
   BsFillArrowRightCircleFill,
@@ -9,8 +9,9 @@ import "./style.scss";
 import { Imgs } from "../../utiles/img";
 
 const MatchInfo = () => {
+
   return (
-    <div className="row-1">
+    <div className="row-1" >
       <ul>
         {matchesInfo.map((matchesInfo) => (
           <li className="row-items" key={matchesInfo.id}>
@@ -33,6 +34,7 @@ const MatchInfo = () => {
               <span>{ScoreCard.score}</span>
             </div>
             <div className="team2">
+            
               <span>{ScoreCard.team2}</span>
               <span>{ScoreCard.score2}</span>
             </div>

@@ -1,0 +1,41 @@
+.NavBar {
+  display: flex;
+  background-color: var(--background);
+  align-items: center;
+  height: 3em;
+  .logo {
+    padding-left: 4em;
+  } 
+   
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color:var(--background);
+  align-items: center;
+  height: 3em;
+  width: 100%;
+  z-index:9999;
+  .logo {
+    padding-left: 4em;
+  } 
+}
+.nav-item {
+  list-style-type: none;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  .nav-list-text {
+    font-size: 15px;
+    height: 1em;
+  }
+}
+.logo img {
+  width: 8em;
+}
+.nav-list img {
+  width: 24px;
+}
+  
